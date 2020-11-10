@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Parallax Scrolling</title>
   <link rel="stylesheet" href="styles.css">
-</head>
 
-<body>
-  <h1>Brown Horses are the best </h1>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="parallax.min.js"></script>
+
+
+</head>
+<body class="back">
+
+  <h1>Brown Horses are the best</h1>
+
+
+  <div class='background_image1'></div>
+
 
   <p> This page says nothing about <b> brown horses.</b> The whole purpose of this website is to show the Parallax Scrolling. Thank you for visiting this website</p>
-  <h1>Where does it come from? </h1>
+  <h2>Where does it come from? </h2>
   <p>
     Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
     looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
     Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
     from a line in section 1.10.32.
   </p>
+  <div class="pattern-dots-sm slategray h-5"></div>
+
+
+  <div class='background_image1'></div>
+
+
   <p>
     The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English
     versions from the 1914 translation by H. Rackham.
   </p>
 
-  <h1> Why do we use it?</h1>
-  <h2>Where can I get some?</h2>
+  <h2> Why do we use it?</h2>
+  <h3>Where can I get some?</h3>
 
   <p>
     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
@@ -33,14 +51,7 @@
     Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
   </p>
 
-  <ul>
-    <li>paragraph</li>
-    <li>words</li>
-    <li>bytes</li>
-    <li>home</li>
-    <li>life</li>
-    <li>other</li>
-  </ul>
+  <div class="parallax-window1" data-parallax="scroll"  data-image-src="images/horse2.jpg">  </div>
 
   <p>
     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem
@@ -49,7 +60,12 @@
     words etc.
   </p>
 
-  <h1>1914 translation by H. Rackham</h1>
+  <h2>1914 translation by H. Rackham</h2>
+
+
+  <div class="parallax-window2" data-parallax="scroll"  data-image-src="images/horse3.jpg"></div>
+
+
   <p> "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the
     master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is
     there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever
@@ -64,8 +80,8 @@
           <a>about<a />
             <a>careers<a />
     </menu>
-    jerry prophete &copy; 2020
-    you may do whater you want with this page. This page was created to show what parallax scrolling.
+    <span> created by <a href="https://www.jerryprophete.com/">jerryprophete.com</a> &copy; 2020 <span>
+    <span> you may do whatever you want with this page. This page was created to show what parallax scrolling can do. </pan>
   </footer>
 
 </body>

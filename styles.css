@@ -1,0 +1,91 @@
+html {
+  font-size: 65%;
+}
+
+body {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  font-size: 1.8rem;
+  font-family: 'Gentium Book Basic', serif;
+}
+
+.back{
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%236d6668' fill-opacity='0.07'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background_image1 {
+  background: url('images/horse1.jpg') no-repeat center;
+  background-size: cover;
+  height: 500px;
+  background-attachment: fixed;
+  transition: all .5s;
+  width: 100%;
+}
+
+p {
+  line-height: 2.5rem;
+}
+ul, li {
+  list-style: none;
+  margin: 1rem;
+
+}
+img {
+  border-radius: 2rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.parallax-window1 {
+    min-height: 400px;
+    width: 100%;
+    background: transparent;
+    transition: all 1s;
+}
+
+.parallax-window2 {
+    min-height: 400px;
+    width: 100%;
+    background: transparent;
+    transition: all .2s;
+    border-radius: 100%;
+
+}
+
+menu {
+  display: flex;
+  flex-direction row;
+  justify-content: space-between;
+justify-content: center;
+}
+
+menu a {
+  margin: 1rem;
+  cursor: pointer;
+
+}
+
+menu a:hover {
+  color: orange;
+}
+
+footer span {
+font-size: 1rem;
+font-style: italic;
+display: block;
+
+
+}
